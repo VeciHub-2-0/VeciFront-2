@@ -1,0 +1,8 @@
+[
+  { "labelKey": "option.home", "to": "/home", "requiresAuth": true },
+  { "labelKey": "option.about", "to": "/about", "requiresAuth": true },
+  { "labelKey": "option.categories", "to": "/publishing/categories", "requiresAuth": true },
+  { "labelKey": "option.login", "to": "/login", "guest": true },
+  { "labelKey": "option.register", "to": "/register", "guest": true },
+  { "labelKey": "option.logout", "to": "/logout", "requiresAuth": true }
+]

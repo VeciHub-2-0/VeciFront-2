@@ -4,9 +4,126 @@
     "use": "utilizando",
     "author" : "por el Equipo de Desarrollo de {brand}"
   },
+  "footer": {
+    "tagline": "Tu comunidad conectada",
+    "description": "VeciHub es una plataforma diseñada para facilitar la comunicación y gestión de comunidades vecinales, conectando residentes y administradores en un entorno digital seguro y eficiente.",
+    "usefulLinks": "Enlaces útiles",
+    "aboutUs": "Sobre nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "privacy": "Privacidad",
+    "terms": "Términos y condiciones",
+    "contactUs": "Contáctanos",
+    "address": "Calle Principal 123, Ciudad",
+    "stayConnected": "Mantente conectado",
+    "newsletterText": "Suscríbete a nuestro boletín para recibir noticias y actualizaciones",
+    "subscribe": "Suscribirse",
+    "rightsReserved": "Todos los derechos reservados"
+  },
   "option": {
     "home": "Inicio",
     "about": "Acerca de",
-    "categories": "Categorias"
+    "categories": "Categorías",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "register": "Registrarse"
+  },
+  "sidebar": {
+    "dashboard": "Panel principal",
+    "forum": "Foro",
+    "events": "Eventos",
+    "polls": "Votaciones",
+    "admin": "Administración",
+    "profile": "Mi perfil",
+    "settings": "Configuración"
+  },
+  "dashboard": {
+    "title": "Panel principal",
+    "welcome": "¡Bienvenido, {name}!",
+    "forumDescription": "Participa en discusiones con otros vecinos sobre temas importantes de la comunidad.",
+    "eventsDescription": "Descubre y únete a eventos organizados en tu comunidad.",
+    "pollsDescription": "Participa en votaciones para tomar decisiones importantes para la comunidad.",
+    "goToForum": "Ir al foro",
+    "goToEvents": "Ver eventos",
+    "goToPolls": "Participar en votaciones",
+    "quickActions": "Acciones rápidas",
+    "newForumTopic": "Nuevo tema",
+    "proposeEvent": "Proponer evento",
+    "messages": "Mensajes",
+    "settings": "Configuración",
+    "communityInfo": "Información de la comunidad"
+  },
+  "forum": {
+    "comingSoon": "Próximamente",
+    "implementationMessage": "La sección de foro está en desarrollo y estará disponible próximamente."
+  },
+  "events": {
+    "comingSoon": "Próximamente",
+    "implementationMessage": "La sección de eventos está en desarrollo y estará disponible próximamente."
+  },
+  "polls": {
+    "comingSoon": "Próximamente",
+    "implementationMessage": "La sección de votaciones está en desarrollo y estará disponible próximamente."
+  },
+  "profile": {
+    "comingSoon": "Próximamente",
+    "implementationMessage": "La sección de perfil está en desarrollo y estará disponible próximamente."
+  },
+  "settings": {
+    "comingSoon": "Próximamente",
+    "implementationMessage": "La sección de configuración está en desarrollo y estará disponible próximamente."
+  },
+  "admin": {
+    "comingSoon": "Próximamente",
+    "implementationMessage": "La sección de administración está en desarrollo y estará disponible próximamente."
+  },
+  "common": {
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información",
+    "language": "Idioma"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "loginButton": "Iniciar sesión",
+    "loginSubtitle": "Inicia sesión para continuar",
+    "loginSuccess": "Has iniciado sesión correctamente",
+    "register": "Registrarse",
+    "registerButton": "Crear mi cuenta",
+    "registerTitle": "Crear cuenta en VeciHub",
+    "registerSubtitle": "Regístrate para acceder a todas las funcionalidades",
+    "registerSuccess": "¡Registro exitoso!",
+    "accountCreated": "Tu cuenta ha sido creada correctamente",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "correo@ejemplo.com",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "confirmPasswordPlaceholder": "Confirma tu contraseña",
+    "name": "Nombre completo",
+    "namePlaceholder": "Ingresa tu nombre completo",
+    "role": "Tipo de usuario",
+    "roleResident": "Vecino",
+    "roleAdmin": "Administrador",
+    "roleResidentDesc": "Para propietarios o residentes del vecindario",
+    "roleAdminDesc": "Para administradores del vecindario o conjunto",
+    "welcome": "¡Bienvenido!",
+    "invalidCredentials": "Correo o contraseña incorrectos",
+    "noAccount": "¿No tienes una cuenta?",
+    "registerHere": "Regístrate aquí",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "loginHere": "Inicia sesión aquí",
+    "rememberMe": "Recordar sesión",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "acceptTerms": "Acepto los términos y condiciones"
+  },
+  "validation": {
+    "required": "El campo {field} es obligatorio",
+    "invalidEmail": "Por favor ingresa un correo electrónico válido",
+    "minLength": "El {field} debe tener al menos {min} caracteres",
+    "passwordSpecialChar": "La contraseña debe incluir al menos un carácter especial",
+    "passwordMatch": "Las contraseñas no coinciden",
+    "acceptTerms": "Debes aceptar los términos y condiciones"
   }
 }

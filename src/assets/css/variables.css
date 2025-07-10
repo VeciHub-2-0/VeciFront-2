@@ -1,0 +1,29 @@
+/* Variables de colores del proyecto VeciHub */
+:root {
+  --vecihub-primary: #328E6E;
+  --vecihub-header-bg: #FDFAF6;
+  --vecihub-text: #000000;
+  --vecihub-button: #67AE6E;
+  --vecihub-button-hover: #589F61;
+  --vecihub-section-bg: #90C67C;
+  --vecihub-text-light: #FFFFFF;
+  --vecihub-main-bg: #FAF1E6;
+  --vecihub-input-bg: #D9D9D9;
+
+  --vecihub-error: #E74C3C;
+  --vecihub-warning: #F5B041;
+  --vecihub-success: #28B463;
+  --vecihub-info: #3498DB;
+
+  /* Sobreescribir variables de PrimeVue */
+  --primary-color: var(--vecihub-primary);
+  --primary-color-text: var(--vecihub-text-light);
+  --surface-ground: var(--vecihub-main-bg);
+  --text-color: var(--vecihub-text);
+
+  /* Variables para alertas */
+  --red-500: var(--vecihub-error);
+  --yellow-500: var(--vecihub-warning);
+  --green-500: var(--vecihub-success);
+  --blue-500: var(--vecihub-info);
+}

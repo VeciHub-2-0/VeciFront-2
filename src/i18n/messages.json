@@ -1,0 +1,116 @@
+{
+  "es": {
+    "app": {
+      "name": "VeciHub"
+    },
+    "option": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "categories": "Categorías",
+      "login": "Iniciar sesión",
+      "logout": "Cerrar sesión",
+      "register": "Registrarse"
+    },
+    "common": {
+      "error": "Error",
+      "success": "Éxito",
+      "warning": "Advertencia",
+      "info": "Información"
+    },
+    "auth": {
+      "login": "Iniciar sesión",
+      "loginButton": "Iniciar sesión",
+      "loginSubtitle": "Inicia sesión para continuar",
+      "loginSuccess": "Has iniciado sesión correctamente",
+      "register": "Registrarse",
+      "registerButton": "Crear mi cuenta",
+      "registerTitle": "Crear cuenta en VeciHub",
+      "registerSubtitle": "Regístrate para acceder a todas las funcionalidades",
+      "registerSuccess": "¡Registro exitoso!",
+      "accountCreated": "Tu cuenta ha sido creada correctamente",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "correo@ejemplo.com",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "confirmPasswordPlaceholder": "Confirma tu contraseña",
+      "name": "Nombre completo",
+      "namePlaceholder": "Ingresa tu nombre completo",
+      "role": "Tipo de usuario",
+      "roleResident": "Vecino",
+      "roleAdmin": "Administrador",
+      "roleResidentDesc": "Para propietarios o residentes del vecindario",
+      "roleAdminDesc": "Para administradores del vecindario o conjunto",
+      "welcome": "¡Bienvenido!",
+      "invalidCredentials": "Correo o contraseña incorrectos",
+      "noAccount": "¿No tienes una cuenta?",
+      "registerHere": "Regístrate aquí",
+      "haveAccount": "¿Ya tienes una cuenta?",
+      "loginHere": "Inicia sesión aquí"
+    },
+    "validation": {
+      "required": "El campo {field} es obligatorio",
+      "invalidEmail": "Por favor ingresa un correo electrónico válido",
+      "minLength": "El {field} debe tener al menos {min} caracteres",
+      "passwordSpecialChar": "La contraseña debe incluir al menos un carácter especial",
+      "passwordMatch": "Las contraseñas no coinciden"
+    }
+  },
+  "en": {
+    "app": {
+      "name": "VeciHub"
+    },
+    "option": {
+      "home": "Home",
+      "about": "About",
+      "categories": "Categories",
+      "login": "Login",
+      "logout": "Logout",
+      "register": "Register"
+    },
+    "common": {
+      "error": "Error",
+      "success": "Success",
+      "warning": "Warning",
+      "info": "Information"
+    },
+    "auth": {
+      "login": "Login",
+      "loginButton": "Sign in",
+      "loginSubtitle": "Sign in to continue",
+      "loginSuccess": "You have successfully logged in",
+      "register": "Register",
+      "registerButton": "Create my account",
+      "registerTitle": "Create VeciHub account",
+      "registerSubtitle": "Register to access all features",
+      "registerSuccess": "Registration successful!",
+      "accountCreated": "Your account has been created successfully",
+      "email": "Email",
+      "emailPlaceholder": "email@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "confirmPassword": "Confirm password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "name": "Full name",
+      "namePlaceholder": "Enter your full name",
+      "role": "User type",
+      "roleResident": "Resident",
+      "roleAdmin": "Administrator",
+      "roleResidentDesc": "For owners or residents of the neighborhood",
+      "roleAdminDesc": "For neighborhood or complex administrators",
+      "welcome": "Welcome!",
+      "invalidCredentials": "Incorrect email or password",
+      "noAccount": "Don't have an account?",
+      "registerHere": "Register here",
+      "haveAccount": "Already have an account?",
+      "loginHere": "Login here"
+    },
+    "validation": {
+      "required": "The {field} field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "minLength": "{field} must be at least {min} characters long",
+      "passwordSpecialChar": "Password must include at least one special character",
+      "passwordMatch": "Passwords do not match"
+    }
+  }
+}

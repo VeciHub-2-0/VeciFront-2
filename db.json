@@ -1,0 +1,125 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "General",
+      "description": "Temas generales de la comunidad",
+      "createdAt": "2025-07-01T09:00:00.000Z",
+      "updatedAt": null
+    },
+    {
+      "id": 2,
+      "name": "Anuncios",
+      "description": "Anuncios importantes para todos los vecinos",
+      "createdAt": "2025-07-01T09:00:00.000Z",
+      "updatedAt": null
+    },
+    {
+      "id": 3,
+      "name": "Ayuda",
+      "description": "Solicitudes de ayuda entre vecinos",
+      "createdAt": "2025-07-01T09:00:00.000Z",
+      "updatedAt": null
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "¡Bienvenidos a VeciHub!",
+      "content": "Hola vecinos,\n\nEstamos encantados de presentar nuestra nueva plataforma digital para la comunidad. En este espacio podremos compartir noticias, organizar eventos y resolver dudas entre todos.\n\nOs animamos a participar activamente y hacer de este foro un lugar útil para todos.",
+      "categoryId": 2,
+      "authorId": 1,
+      "authorName": "Admin Demo",
+      "createdAt": "2025-07-01T10:00:00.000Z",
+      "updatedAt": null,
+      "reactions": { "like": 5, "dislike": 0 },
+      "commentCount": 3
+    },
+    {
+      "id": 2,
+      "title": "Campaña de limpieza en zonas comunes",
+      "content": "Estimados vecinos,\n\nEl próximo sábado 20 de julio organizaremos una jornada de limpieza en las zonas comunes del edificio y alrededores. Comenzaremos a las 10:00 de la mañana.\n\nNecesitamos voluntarios. ¿Quién se apunta?\n\nTraed guantes y ropa cómoda. Nosotros proporcionaremos las bolsas y material de limpieza.",
+      "categoryId": 2,
+      "authorId": 1,
+      "authorName": "Admin Demo",
+      "createdAt": "2025-07-03T09:15:00.000Z",
+      "updatedAt": null,
+      "reactions": { "like": 8, "dislike": 0 },
+      "commentCount": 1
+    },
+    {
+      "id": 3,
+      "title": "¿Alguien ha visto mi gato?",
+      "content": "Vecinos, mi gato Simba ha desaparecido desde ayer por la tarde. Es un gato naranja con collar azul.\n\nSi alguien lo ha visto, por favor contáctenme. Estoy muy preocupado.\n\nGracias a todos.",
+      "categoryId": 3,
+      "authorId": 2,
+      "authorName": "Vecino Demo",
+      "createdAt": "2025-07-05T16:30:00.000Z",
+      "updatedAt": null,
+      "reactions": { "like": 3, "dislike": 0 },
+      "commentCount": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "parentId": null,
+      "content": "¡Bienvenido! Esta plataforma será muy útil para todos los vecinos.",
+      "authorId": 2,
+      "authorName": "Vecino Demo",
+      "createdAt": "2025-07-01T15:30:00.000Z",
+      "updatedAt": null,
+      "reactions": { "like": 3, "dislike": 0 }
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "parentId": 1,
+      "content": "Gracias. Esperamos que todos participen activamente.",
+      "authorId": 1,
+      "authorName": "Admin Demo",
+      "createdAt": "2025-07-01T16:15:00.000Z",
+      "updatedAt": null,
+      "reactions": { "like": 2, "dislike": 0 }
+    },
+    {
+      "id": 3,
+      "postId": 1,
+      "parentId": null,
+      "content": "¿Habrá una sección para reportar incidencias en la comunidad?",
+      "authorId": 2,
+      "authorName": "Vecino Demo",
+      "createdAt": "2025-07-02T09:45:00.000Z",
+      "updatedAt": null,
+      "reactions": { "like": 4, "dislike": 0 }
+    },
+    {
+      "id": 4,
+      "postId": 2,
+      "parentId": null,
+      "content": "Me apunto como voluntario para la limpieza. ¿A qué hora comenzará?",
+      "authorId": 2,
+      "authorName": "Vecino Demo",
+      "createdAt": "2025-07-03T18:20:00.000Z",
+      "updatedAt": null,
+      "reactions": { "like": 2, "dislike": 0 }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin Demo",
+      "email": "admin@vecihub.com",
+      "password": "Admin@123",
+      "role": "administrador"
+    },
+    {
+      "id": 2,
+      "name": "Vecino Demo",
+      "email": "vecino@vecihub.com",
+      "password": "Vecino@123",
+      "role": "vecino"
+    }
+  ]
+}

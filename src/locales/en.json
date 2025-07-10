@@ -4,9 +4,126 @@
     "use": "using",
     "author" : "by {brand} Developer Team"
   },
+  "footer": {
+    "tagline": "Your connected community",
+    "description": "VeciHub is a platform designed to facilitate communication and management of neighborhood communities, connecting residents and administrators in a secure and efficient digital environment.",
+    "usefulLinks": "Useful Links",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "contactUs": "Contact Us",
+    "address": "123 Main Street, City",
+    "stayConnected": "Stay Connected",
+    "newsletterText": "Subscribe to our newsletter to receive news and updates",
+    "subscribe": "Subscribe",
+    "rightsReserved": "All rights reserved"
+  },
   "option": {
     "home": "Home",
     "about": "About",
-    "categories": "Categories"
+    "categories": "Categories",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "forum": "Forum",
+    "events": "Events",
+    "polls": "Polls",
+    "admin": "Administration",
+    "profile": "My Profile",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome, {name}!",
+    "forumDescription": "Participate in discussions with other neighbors about important community topics.",
+    "eventsDescription": "Discover and join events organized in your community.",
+    "pollsDescription": "Participate in polls to make important decisions for the community.",
+    "goToForum": "Go to forum",
+    "goToEvents": "View events",
+    "goToPolls": "Participate in polls",
+    "quickActions": "Quick actions",
+    "newForumTopic": "New topic",
+    "proposeEvent": "Propose event",
+    "messages": "Messages",
+    "settings": "Settings",
+    "communityInfo": "Community information"
+  },
+  "forum": {
+    "comingSoon": "Coming Soon",
+    "implementationMessage": "The forum section is under development and will be available soon."
+  },
+  "events": {
+    "comingSoon": "Coming Soon",
+    "implementationMessage": "The events section is under development and will be available soon."
+  },
+  "polls": {
+    "comingSoon": "Coming Soon",
+    "implementationMessage": "The polls section is under development and will be available soon."
+  },
+  "profile": {
+    "comingSoon": "Coming Soon",
+    "implementationMessage": "The profile section is under development and will be available soon."
+  },
+  "settings": {
+    "comingSoon": "Coming Soon",
+    "implementationMessage": "The settings section is under development and will be available soon."
+  },
+  "admin": {
+    "comingSoon": "Coming Soon",
+    "implementationMessage": "The administration section is under development and will be available soon."
+  },
+  "common": {
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "language": "Language"
+  },
+  "auth": {
+    "login": "Login",
+    "loginButton": "Sign in",
+    "loginSubtitle": "Sign in to continue",
+    "loginSuccess": "You have successfully logged in",
+    "register": "Register",
+    "registerButton": "Create my account",
+    "registerTitle": "Create VeciHub account",
+    "registerSubtitle": "Register to access all features",
+    "registerSuccess": "Registration successful!",
+    "accountCreated": "Your account has been created successfully",
+    "email": "Email",
+    "emailPlaceholder": "email@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPassword": "Confirm password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "name": "Full name",
+    "namePlaceholder": "Enter your full name",
+    "role": "User type",
+    "roleResident": "Resident",
+    "roleAdmin": "Administrator",
+    "roleResidentDesc": "For owners or residents of the neighborhood",
+    "roleAdminDesc": "For neighborhood or complex administrators",
+    "welcome": "Welcome!",
+    "invalidCredentials": "Incorrect email or password",
+    "noAccount": "Don't have an account?",
+    "registerHere": "Register here",
+    "haveAccount": "Already have an account?",
+    "loginHere": "Login here",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "acceptTerms": "I accept the terms and conditions"
+  },
+  "validation": {
+    "required": "The {field} field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "minLength": "{field} must be at least {min} characters long",
+    "passwordSpecialChar": "Password must include at least one special character",
+    "passwordMatch": "Passwords do not match",
+    "acceptTerms": "You must accept the terms and conditions"
   }
 }
