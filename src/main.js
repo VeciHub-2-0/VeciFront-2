@@ -1,3 +1,4 @@
+console.log("🔥 ENV VARS:", import.meta.env);
 import { createApp } from 'vue'
 import './style.css'
 import './assets/css/variables.css'
