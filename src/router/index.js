@@ -21,10 +21,11 @@ const AdminComponent = () => import('../pages/admin.component.vue');
 const routes = [
   ...forumRoutes,
     // Ruta raíz redirige a login o dashboard según autenticación
-    {path: '/', name: 'default', redirect: () => {
-      const authStore = useAuthStore();
-      return authStore.isAuthenticated ? '/dashboard' : '/login';
-    }},
+    {
+  path: '/',
+  name: 'default',
+  redirect: '/login'
+},
 
     // Rutas de autenticación
     {path: '/login', name: 'login', component: LoginComponent, meta:{title: 'Iniciar sesión', guest: true}},
